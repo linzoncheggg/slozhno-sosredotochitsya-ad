@@ -179,6 +179,23 @@
   margin: 0;
 }
 
+.link {
+  text-decoration: none;
+  text-shadow: 2px 2px 0 var(--accent-color);
+}
+
+.link:hover {
+  border-block-end: 1px solid currentColor;
+}
+
+.link:focus {
+  outline: none;
+}
+
+.link:focus-visible {
+  outline: 1px solid currentColor;
+}
+
 .gallery {
   display: grid;
   gap: 10px;
@@ -274,7 +291,7 @@
     grid-row: span 2;
   }
 
-  .gallery__item_type_books {
+  .gallery__item_type_street {
     grid-column: span 2;
   }
 }
