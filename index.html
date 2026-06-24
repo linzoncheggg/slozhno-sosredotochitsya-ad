@@ -4,11 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="dark light" />
+    <link rel="icon" href="./images/favicon.ico" sizes="any" />
+    <link rel="icon" href="./images/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="./images/mobile-icon.png" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/globals.css" />
+    <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/dark.css" />
+    <link rel="stylesheet" href="./styles/light.css" />
+    <script src="./scripts/script.js" defer></script>
     <title>Сложно сосредоточиться</title>
-    <script src="./scripts/script.js"></script>
   </head>
+
   <body class="page">
     <header class="header decorated-zone">
+      <span class="rec-decor" aria-hidden="true">REC</span>
+
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
           <li class="header__theme-menu-item">
@@ -35,6 +48,183 @@
           </li>
         </ul>
       </nav>
+
+      <h1 class="page-title">no focus</h1>
+
+      <p class="header__text title-decor">
+        Что делать, когда не получается сосредоточиться<br />
+        И почему внимание так легко ускользает именно тогда, когда оно очень нужно
+      </p>
     </header>
+
+    <main class="main">
+      <section class="content-section content-section_type_two-columns">
+        <h2 class="section-title">Почему сосредоточиться так сложно</h2>
+
+        <div class="cards-list">
+          <article class="card">
+            <h3 class="card__title title-decor">Многозадачность</h3>
+            <p class="card__text">
+              Когда задач много и каждая кажется важной, мозг быстро устаёт.
+              Он пытается переключаться между делами, но не может одинаково
+              хорошо держать фокус сразу на всём. Из-за этого появляются ошибки,
+              тревога и ощущение, что работа идёт медленно.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3 class="card__title title-decor">Дофамин</h3>
+            <p class="card__text">
+              Соцсети, уведомления и короткие видео дают быстрые приятные
+              эмоции. Мозг запоминает это и всё чаще просит лёгкую награду.
+              Поэтому вместо сложной задачи хочется проверить телефон, ленту или
+              новые сообщения.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section content-section_type_cards-row">
+        <h2 class="section-title">Что снижает концентрацию внимания?</h2>
+
+        <div class="cards-list cards-list_type_row">
+          <article class="card">
+            <h3 class="card__title title-decor">Многозадачность</h3>
+            <p class="card__text">
+              Постоянное переключение между задачами перегружает внимание. Если
+              параллельно читать новости, отвечать на сообщения и пытаться
+              работать, мозг не успевает глубоко погрузиться ни в одно дело.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3 class="card__title title-decor">Еда</h3>
+            <p class="card__text">
+              Быстрые углеводы дают резкий прилив энергии, но он быстро
+              заканчивается. После этого появляется сонливость и желание снова
+              съесть что-то сладкое. Из-за таких скачков сосредоточиться сложнее.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3 class="card__title title-decor">Гаджеты</h3>
+            <p class="card__text">
+              Телефон и ноутбук постоянно подкидывают новые поводы отвлечься:
+              уведомления, вкладки, музыка, видео и переписки. После каждого
+              переключения нужно время, чтобы снова вернуться к нормальному
+              рабочему состоянию.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section content-section_type_two-columns">
+        <h2 class="section-title">
+          Как концентрироваться лучше, чем золотая рыбка
+        </h2>
+
+        <div class="cards-list">
+          <h3 class="cards-list__title title-decor">
+            5 простых советов, которые помогают вернуть фокус
+          </h3>
+
+          <article class="card">
+            <h4 class="card__title title-decor">Представьте небо и облака</h4>
+            <p class="card__text">
+              Закройте глаза и представьте, что мысли — это облака, которые
+              проплывают по небу. Их не нужно останавливать. Достаточно заметить
+              их и спокойно вернуться к задаче.
+            </p>
+          </article>
+
+          <article class="card">
+            <h4 class="card__title title-decor">Включите музыку</h4>
+            <p class="card__text">
+              Подойдёт спокойная музыка без слов, белый шум или нейромузыка.
+              Главное — не включать любимые треки, потому что они могут увести
+              внимание в эмоции и воспоминания.
+            </p>
+          </article>
+
+          <article class="card">
+            <h4 class="card__title title-decor">Прогуляйтесь</h4>
+            <p class="card__text">
+              Короткая прогулка помогает переключиться и дать мозгу кислород.
+              Лучше выбрать спокойное место: парк, двор без шума или любую
+              дорогу, где не нужно постоянно отвлекаться.
+            </p>
+          </article>
+
+          <article class="card">
+            <h4 class="card__title title-decor">Хорошо ешьте</h4>
+            <p class="card__text">
+              Старайтесь выбирать еду, после которой энергия держится дольше:
+              овощи, крупы, бобовые, цельнозерновой хлеб, ягоды и обычную воду.
+              Так меньше шансов попасть в резкий спад сил.
+            </p>
+          </article>
+
+          <article class="card">
+            <h4 class="card__title title-decor">Читайте</h4>
+            <p class="card__text">
+              Бумажные книги и длинные тексты тренируют внимание. В отличие от
+              коротких постов, они требуют больше времени и помогают привыкнуть
+              удерживать фокус на одной мысли.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <h2 class="gallery__title title-decor">А можно в картинках?</h2>
+
+        <ul class="gallery__list">
+          <li class="gallery__item gallery__item_type_sunset">
+            <img
+              class="gallery__image"
+              src="./images/sunset.png"
+              alt="Закат над водой"
+              loading="lazy"
+            />
+          </li>
+          <li class="gallery__item gallery__item_type_ice-cream">
+            <img
+              class="gallery__image"
+              src="./images/ice-cream.png"
+              alt="Мороженое"
+              loading="lazy"
+            />
+          </li>
+          <li class="gallery__item gallery__item_type_tape">
+            <img
+              class="gallery__image"
+              src="./images/tape.png"
+              alt="Кассета"
+              loading="lazy"
+            />
+          </li>
+          <li class="gallery__item gallery__item_type_books">
+            <img
+              class="gallery__image"
+              src="./images/books.png"
+              alt="Книги"
+              loading="lazy"
+            />
+          </li>
+          <li class="gallery__item gallery__item_type_street">
+            <img
+              class="gallery__image"
+              src="./images/street.png"
+              alt="Улица"
+              loading="lazy"
+            />
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer decorated-zone">
+      <h2 class="page-title footer__title">focus</h2>
+    </footer>
   </body>
 </html>
